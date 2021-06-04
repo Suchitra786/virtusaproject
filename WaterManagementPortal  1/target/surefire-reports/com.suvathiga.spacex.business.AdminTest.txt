@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.suvathiga.spacex.business.AdminTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 24.239 s <<< FAILURE! - in com.suvathiga.spacex.business.AdminTest
+admintest  Time elapsed: 24.202 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.suvathiga.spacex.business.AdminTest.admintest(AdminTest.java:34)
+

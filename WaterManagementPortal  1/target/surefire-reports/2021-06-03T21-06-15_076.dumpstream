@@ -1,0 +1,4 @@
+# Created at 2021-06-03T21:06:16.121
+Boot Manifest-JAR contains absolute paths in classpath 'D:\suvathiga\virtusa\WaterManagementPortal\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

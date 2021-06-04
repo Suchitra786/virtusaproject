@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.suvathiga.spacex.business.LoginTest" time="0.06" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\suvathiga\virtusa\WaterManagementPortal\target\test-classes;D:\suvathiga\virtusa\WaterManagementPortal\target\classes;C:\Users\MOHAN\.m2\repository\mysql\mysql-connector-java\8.0.25\mysql-connector-java-8.0.25.jar;C:\Users\MOHAN\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\MOHAN\.m2\repository\org\mockito\mockito-junit-jupiter\3.10.0\mockito-junit-jupiter-3.10.0.jar;C:\Users\MOHAN\.m2\repository\org\mockito\mockito-core\3.10.0\mockito-core-3.10.0.jar;C:\Users\MOHAN\.m2\repository\net\bytebuddy\byte-buddy\1.11.0\byte-buddy-1.11.0.jar;C:\Users\MOHAN\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.0\byte-buddy-agent-1.11.0.jar;C:\Users\MOHAN\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\MOHAN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\MOHAN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\MOHAN\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\MOHAN\.m2\repository\org\mockito\mockito-inline\3.7.7\mockito-inline-3.7.7.jar;C:\Users\MOHAN\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\MOHAN\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\MOHAN\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\MOHAN\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\MOHAN\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\MOHAN\.m2\repository\net\proteanit\sql\rs2xml\1.0\rs2xml-1.0.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Users\MOHAN\.jdks\corretto-1.8.0_292\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\MOHAN\AppData\Local\Temp\surefire8397606326088908620\surefirebooter2691000576056569225.jar C:\Users\MOHAN\AppData\Local\Temp\surefire8397606326088908620 2021-06-04T10-58-31_308-jvmRun1 surefire1105009906102729418tmp surefire_01424910833340711695tmp"/>
+    <property name="surefire.test.class.path" value="D:\suvathiga\virtusa\WaterManagementPortal\target\test-classes;D:\suvathiga\virtusa\WaterManagementPortal\target\classes;C:\Users\MOHAN\.m2\repository\mysql\mysql-connector-java\8.0.25\mysql-connector-java-8.0.25.jar;C:\Users\MOHAN\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\MOHAN\.m2\repository\org\mockito\mockito-junit-jupiter\3.10.0\mockito-junit-jupiter-3.10.0.jar;C:\Users\MOHAN\.m2\repository\org\mockito\mockito-core\3.10.0\mockito-core-3.10.0.jar;C:\Users\MOHAN\.m2\repository\net\bytebuddy\byte-buddy\1.11.0\byte-buddy-1.11.0.jar;C:\Users\MOHAN\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.0\byte-buddy-agent-1.11.0.jar;C:\Users\MOHAN\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\MOHAN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\MOHAN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\MOHAN\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\MOHAN\.m2\repository\org\mockito\mockito-inline\3.7.7\mockito-inline-3.7.7.jar;C:\Users\MOHAN\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.2\junit-jupiter-5.7.2.jar;C:\Users\MOHAN\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\MOHAN\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\MOHAN\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\MOHAN\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\MOHAN\.m2\repository\net\proteanit\sql\rs2xml\1.0\rs2xml-1.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\MOHAN"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Users\MOHAN\.jdks\corretto-1.8.0_292\jre"/>
+    <property name="basedir" value="D:\suvathiga\virtusa\WaterManagementPortal"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\MOHAN\AppData\Local\Temp\surefire8397606326088908620\surefirebooter2691000576056569225.jar"/>
+    <property name="sun.boot.class.path" value="C:\Users\MOHAN\.jdks\corretto-1.8.0_292\jre\lib\resources.jar;C:\Users\MOHAN\.jdks\corretto-1.8.0_292\jre\lib\rt.jar;C:\Users\MOHAN\.jdks\corretto-1.8.0_292\jre\lib\sunrsasign.jar;C:\Users\MOHAN\.jdks\corretto-1.8.0_292\jre\lib\jsse.jar;C:\Users\MOHAN\.jdks\corretto-1.8.0_292\jre\lib\jce.jar;C:\Users\MOHAN\.jdks\corretto-1.8.0_292\jre\lib\charsets.jar;C:\Users\MOHAN\.jdks\corretto-1.8.0_292\jre\lib\jfr.jar;C:\Users\MOHAN\.jdks\corretto-1.8.0_292\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_292-b10"/>
+    <property name="user.name" value="MOHAN"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Users\MOHAN\.jdks\corretto-1.8.0_292\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\MOHAN\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MOHAN\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.1.1"/>
+    <property name="java.version" value="1.8.0_292"/>
+    <property name="user.dir" value="D:\suvathiga\virtusa\WaterManagementPortal"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Users\MOHAN\.jdks\corretto-1.8.0_292\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\18.0.0\dbhomeXE\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\MATLAB7\bin\win32;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\MOHAN\AppData\Local\Programs\AdoptOpenJDK\jdk-11.0.9.101-hotspot\bin;C:\Users\MOHAN\anaconda3;C:\Users\MOHAN\anaconda3\Library\mingw-w64\bin;C:\Users\MOHAN\anaconda3\Library\usr\bin;C:\Users\MOHAN\anaconda3\Library\bin;C:\Users\MOHAN\anaconda3\Scripts;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\suvathiga\Microsoft VS Code\bin;C:\Users\MOHAN\Downloads\zulu15.28.51-ca-jdk15.0.1-win_x64\bin;C:\Users\MOHAN\AppData\Roaming\npm;D:\drivers and softwares\sqlite-tools-win32-x86-3340000;C:\Panda3D-1.10.9-x64\python;C:\Panda3D-1.10.9-x64\python\Scripts;C:\Panda3D-1.10.9-x64\bin;C:\Users\MOHAN\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="25.292-b10"/>
+    <property name="java.ext.dirs" value="C:\Users\MOHAN\.jdks\corretto-1.8.0_292\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="C:\Users\MOHAN\.m2\repository"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testIsAdminCheck" classname="com.suvathiga.spacex.business.LoginTest" time="0.06"/>
+</testsuite>
